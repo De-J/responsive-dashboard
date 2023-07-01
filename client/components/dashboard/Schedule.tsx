@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "@/styles/dashboard/schedule.module.css";
 
 const data = [
@@ -24,7 +25,7 @@ function Schedule() {
                 <p style={{fontWeight: 700}}>Today&apos;s schedule</p>
                 <button>
                     See all
-                    <img alt="icon" src="/dashboard/side-arrow.svg" />
+                    <Image height="10" width={10} alt="icon" src="/dashboard/side-arrow.svg" />
                 </button>
             </div>
             

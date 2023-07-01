@@ -7,25 +7,21 @@ const items = [
     heading: "Total Revenues", 
     text: "$2,129,430",
     color: "#DDEFE0",
-    key: 0
   },
   {
     heading: "Total Transactions", 
     text: "1,520",
     color: "#F4ECDD",
-    key: 1
   },
   {
     heading: "Total Likes", 
     text: "9,721",
     color: "#EFDADA",
-    key: 2
   },
   {
     heading: "Total Users", 
     text: "892",
     color: "#DEE0EF",
-    key: 3
   }
 ]
 
@@ -33,7 +29,7 @@ let i = 1;
 const Summary: FC = () => {
   return (
     <div className={`${styles.summary} summary-resp`}>
-      {items.map(item => <Block {...item} />)}
+      {items.map(item => <Block key={i++} {...item} />)}
     </div>
   )
 }
