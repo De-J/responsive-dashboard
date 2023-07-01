@@ -11,13 +11,13 @@ const Sidebar: FC = () => {
         "Users",
         "Settings"
     ]
-
+    let i = 1;
     return (
         <aside className={styles.aside}>
             <h1>Board.</h1>
             <ul>
                 {list.map(item => (
-                    <Link href="/">
+                    <Link key={i++} href="/">
                         <li className={styles.item}>
                             <Image
                                 height="14"

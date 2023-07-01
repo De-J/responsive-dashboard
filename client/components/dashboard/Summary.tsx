@@ -6,7 +6,8 @@ const items = [
   {
     heading: "Total Revenues", 
     text: "$2,129,430",
-    color: "#DDEFE0"
+    color: "#DDEFE0",
+    key: 0
   },
   {
     heading: "Total Transactions", 
