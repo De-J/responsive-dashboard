@@ -45,7 +45,7 @@ const Block: FC<BlockProps> = ({ heading, text, color }) => {
   return (
     <div className={styles.block} style={{backgroundColor: color}}>
       <div>
-        <Image width={10} height={10} alt="icon" src={`/dashboard/summary/${heading.toLowerCase().replace(' ', '_') + "_icon"}.svg`} />
+        <Image width={20} height={20} alt="icon" src={`/dashboard/summary/${heading.toLowerCase().replace(' ', '_') + "_icon"}.svg`} />
       </div>
       <p>{heading}</p>
       <h1>{text}</h1>
