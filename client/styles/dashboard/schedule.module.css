@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;    
+
+    flex-grow: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1.25rem;
+    background-color: white;
+}
+
+.container button {
+    font: normal 12px "Montserrat";
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.container img {
+    margin-left: 5px;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+    flex-grow: 1;
+    color: #666666;
+    font: normal 12px "Lato";
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-left: 5px solid;
+    padding: 0 10px;
+}
+
+.item p {
+    margin: 5px;
+}

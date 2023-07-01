@@ -1,0 +1,26 @@
+.summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.block {
+    font-family: 'Lato', sans-serif;
+    flex-basis: 100%;
+    flex-shrink: 1;
+    padding: 1rem;
+    border-radius: 1.25rem;
+}
+
+.block h1 {
+    font: 700 24px "Open Sans";
+}
+
+.block p {
+    font-size: small;
+}
+
+.block div {
+    display: flex;
+    justify-content: flex-end;
+}

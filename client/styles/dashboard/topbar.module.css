@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search img {
+    position: relative;
+    right: 20px;
+}
+
+.right {
+    display: flex;
+    gap: 1rem;
+}
+
+.right input {
+    font-family: 'Lato', sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}

@@ -1,0 +1,43 @@
+.aside { 
+
+    min-width: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 1.875rem;
+    padding: 3.125rem;
+}
+
+.aside h1 {
+    font-size: 2.25rem;
+    margin-bottom: 3.75rem;
+}
+
+.aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aside a {
+    text-decoration: none;
+    color: white;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item img {
+    margin-right: 1.25rem;
+}
+
+.support {
+    position: absolute;
+    bottom: 3.75rem;
+    font-size: 0.875rem;
+}
+
+.support p:first-child {
+    margin-bottom: 1.25rem;
+}

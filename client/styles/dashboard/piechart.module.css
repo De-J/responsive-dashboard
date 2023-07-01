@@ -1,0 +1,14 @@
+.container {
+    background-color: white;
+    border-radius: 1.25rem;
+    /* font-family: "Open Sans", sans-serif; */
+}
+
+.text {
+    color: black;
+    font-weight: 700;
+}
+
+.container li {
+    margin: 20px 10px;
+}

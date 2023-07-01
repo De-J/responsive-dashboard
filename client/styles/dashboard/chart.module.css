@@ -1,0 +1,11 @@
+.chart {
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+
+    box-sizing: border-box;
+    border-radius: 1.25rem;    
+}
+
+.border {
+    border: 1px solid red;
+}
