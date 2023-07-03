@@ -20,8 +20,8 @@ const Sidebar: FC = () => {
                     <Link key={i++} href="/">
                         <li className={styles.item}>
                             <Image
-                                height="14"
-                                width="14"
+                                height="20"
+                                width="20"
                                 src={`/dashboard/sidebar/${item.toLowerCase()}_icon.svg`}
                                 alt={`${item.toLowerCase()}_icon`} />
                             <p>{item}</p>

@@ -3,7 +3,7 @@ import styles from "@/styles/dashboard/topbar.module.css";
 
 function TopBar() {
   return (  
-    <div className={styles.container}>
+    <div className={`${styles.container}`}>
       <h1>Dashboard</h1>
       <div className={styles.right}>
         <div className={styles.search}>
